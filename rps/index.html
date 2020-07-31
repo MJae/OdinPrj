@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Rock, Paper, Scissors</title>
+
+  <script>
+    // Pick a computer throw
+    function computerPlay() {
+      // Return a random integer between 1 and 3
+      let computerChoice = Math.random() * 3;
+      if (computerChoice >= 2) {
+        return "rock";
+      } else if (computerChoice >=1) {
+        return "paper";
+      } else {
+        return "scissors";
+      }
+    } // End function computerPlay()
+
+    // Play a round
+    function playRound(playerSelection, computerSelection) {
+      playerSelection.toLowerCase();
+      let paper = "paper";
+      let rock = "rock";
+      let scissors = "scissors";
+
+      if (playerSelection == computerSelection) {
+        // Tie
+        return "tie";
+      }
+
+      if (playerSelection == rock && computerSelection == paper || playerSelection == paper && computerSelection == scissors || playerSelection == scissors && computerSelection == rock) {
+        // Computer wins
+        return "computer";
+      } else {
+        // Player wins
+        return "player";
+      }
+    } // End function playRound()
+
+    // Main game run
+    function game() {
+      let playerScore = 0;
+      let computerScore = 0;
+      let numRounds = 0;
+      let maxRounds = 5;
+
+      let playerSelection;
+      let winner;
+
+      // Play rounds
+      while (numRounds < maxRounds) {
+        playerSelection = window.prompt("Rock, Paper, or Scissors?");
+        const computerSelection = computerPlay();
+
+        winner = playRound(playerSelection, computerSelection);
+
+        if (winner == "player") {
+          playerScore++;
+        } else if (winner == "computer") {
+          computerScore++;
+        }
+
+        console.log("Player: " + playerSelection);
+        console.log("Computer: " + computerSelection);
+        console.log("Player Score: " + playerScore);
+        console.log("Computer Score: " + computerScore);
+
+        numRounds++;
+      }
+
+      // Announce winner
+      if (playerScore > computerScore) {
+        console.log("Congratulations! You Won!");
+      } else {
+        console.log("Better luck next time!");
+      }
+    } // End function game()
+
+    // Run game
+    game();
+  </script>
+</head>
+<body>
+
+</body>
+</html>
