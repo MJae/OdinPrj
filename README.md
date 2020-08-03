@@ -3,6 +3,9 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+# Day 7: 2020 August 03
+Added the first exercise from JavaScript30: JS Drum Kit
+
 # Day 6: 2020 August 02
 Completed a few javascript exercises
 
