@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Rock, Paper, Scissors: Fire Emblem Edition</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="contents">
+    <div class="weapons">
+      <div class="weapon" id="sword">
+        <kbd>S</kbd>
+        <p class="weaponLabel">sword</p>
+        <img src="images/sword.png" alt="sword" height="100px">
+      </div>
+
+      <div class="weapon" id="lance">
+        <kbd>L</kbd>
+        <p class="weaponLabel">lance</p>
+        <img src="images/lance.png" alt="lance" height="100px">
+      </div>
+
+      <div class="weapon" id="axe">
+        <kbd>A</kbd>
+        <p class="weaponLabel">axe</p>
+        <img src="images/axe.png" alt="lance" height="100px">
+      </div>
+    </div> <!-- End class hands -->
+
+    <div class="spacer">
+      <p>&nbsp;</p>
+    </div>
+
+    <div class="trackers">
+      <div class="tracker">
+        <p class="trackerLabel">Enemy Weapon</p>
+        <img id="enemyWeapon" src="images/all_weapons.png" alt="all weapons"
+            height="150px">
+      </div>
+
+      <div class="tracker">
+        <p class="trackerLabel">Winner</p>
+        <p id="winnerName">&nbsp;</p>
+      </div>
+    </div> <!-- End class trackers -->
+
+    <div class="scores">
+      <div class="score">
+        <p class="scoreLabel">Enemy</p>
+        <p class="scoreNumbers" id="enemyScore">0</p>
+      </div>
+
+      <div class="score">
+        <p class="scoreLabel">Tactician</p>
+        <p class="scoreNumbers" id="tacticianScore">0</p>
+      </div>
+    </div> <!-- End class scores -->
+  </div> <!-- End class contents -->
+
+  <script type="text/javascript" src="rps-gui.js"></script>
+</body>
+
+</html>

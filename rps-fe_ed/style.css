@@ -1,0 +1,105 @@
+/* Reset the page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+  background: url(images/bg-fe_awakening.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contents {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.weapon, .score, .tracker {
+  border: .4rem solid white;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  color: royalblue;
+  background: rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 .3rem royalblue;
+}
+
+.weapon {
+  width: 15rem;
+  height: 18rem;
+}
+
+.score {
+  width: 15rem;
+  height: 12rem;
+}
+
+.tracker {
+  width: 20rem;
+  height: 18rem;
+}
+
+.weapons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.weaponLabel, .scoreLabel, .trackerLabel {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: royalblue;
+}
+
+.weaponLabel {
+  font-size: 1.4rem;
+}
+
+.scoreLabel, .trackerLabel {
+  font-size: 2rem;
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreNumbers {
+  display: inline;
+  font-size: 8rem;
+}
+
+.trackers {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#winnerName {
+  display: inline;
+  font-size: 4rem;
+}

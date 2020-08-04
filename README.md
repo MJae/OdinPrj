@@ -3,6 +3,9 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+# Day 8: 2020 August 04
+More DOM manipulation, Project: Rock, Paper, Scissors GUI
+
 # Day 7: 2020 August 03
 Added the first exercise from JavaScript30: JS Drum Kit
 
@@ -13,7 +16,7 @@ Completed a few javascript exercises
 Started on the javascript-exercises
 
 # Day 4: 2020 July 31
-Completed Project: Rock, Paper, Scissors
+Completed TOP Project: Rock, Paper, Scissors
 
 # Day 3: 2020 July 30
 Completed TOP Mini-Project: Google Homepage
