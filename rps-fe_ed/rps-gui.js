@@ -3,6 +3,7 @@
     * Images for winner box
     * Reset winner box
     * Implement keyboard shortcuts
+    * Inspect score trackers - it appears bug and declares a winner below max
 **/
 
 const sword = "sword";

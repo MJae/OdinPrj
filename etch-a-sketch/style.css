@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.sketchpad {
+  display: inline-grid;
+  justify-content: center;
+  grid-template-columns: repeat(16, 48px);
+  grid-template-rows: repeat(16, 48px);
+}
