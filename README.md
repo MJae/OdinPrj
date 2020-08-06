@@ -3,6 +3,9 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+## Day 10: 2020 August 06
+More Javascript exercises
+
 ## Day 9: 2020 August 05
 Added Project: Etch-a-Sketch
 
