@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TOP Project: Calculator</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="toolbar">
+      <button type="button" id="clearButton">Clear</button>
+    </div>
+
+    <div class="calculatorMain">
+      <div class="calcDisplay">
+        <p id="calcDisplay">0123456789</p>
+      </div>
+
+      <div class="calcNumPad">
+        <!-- Begin number buttons -->
+        <div class="numButtons">
+          <div data-key="97" class="numButton" id="1">
+            <kbd>1</kbd>
+          </div>
+          <div data-key="98" class="numButton" id="2">
+            <kbd>2</kbd>
+          </div>
+          <div data-key="99" class="numButton" id="3">
+            <kbd>3</kbd>
+          </div>
+          <div data-key="100" class="numButton" id="4">
+            <kbd>4</kbd>
+          </div>
+          <div data-key="101" class="numButton" id="5">
+            <kbd>5</kbd>
+          </div>
+          <div data-key="102" class="numButton" id="6">
+            <kbd>6</kbd>
+          </div>
+          <div data-key="103" class="numButton" id="7">
+            <kbd>7</kbd>
+          </div>
+          <div data-key="104" class="numButton" id="8">
+            <kbd>8</kbd>
+          </div>
+          <div data-key="105" class="numButton" id="9">
+            <kbd>9</kbd>
+          </div>
+
+          <div data-key="96" class="numButton" id="0">
+            <kbd>0</kbd>
+          </div>
+        </div>
+        <!-- End number buttons -->
+
+        <!-- Begin op buttons -->
+        <div class="calcBasicOps">
+          <div data-key="8" class="basicOpButton" id="bksp">
+            <kbd></kbd>
+          </div>
+
+          <div data-key="107" class="basicOpButton" id="add">
+            <kbd></kbd>
+          </div>
+          <div data-key="109" class="basicOpButton" id="subtract">
+            <kbd></kbd>
+          </div>
+          <div data-key="106" class="basicOpButton" id="multiply">
+            <kbd></kbd>
+          </div>
+          <div data-key="111" class="basicOpButton" id="divide">
+            <kbd></kbd>
+          </div>
+
+          <div data-key="13" class="basicOpButton" id="equals">
+            <kbd></kbd>
+          </div>
+        </div>
+        <!-- End op buttons -->
+
+      </div> <!-- End class calcNUmPad -->
+    </div> <!-- End class calculatorMain -->
+  </div> <!-- End class container -->
+
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

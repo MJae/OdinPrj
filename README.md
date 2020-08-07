@@ -3,6 +3,9 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+## Day 11: 2020 August 07
+Started the calculator project
+
 ## Day 10: 2020 August 06
 More Javascript exercises
 
