@@ -3,8 +3,20 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+## Dat 15: 2020 August 11
+Almost done with the calculator
+
+## Day 14: 2020 August 10
+A birthday
+
+## Day 13: 2020 August 09
+A bit of progress on the calculator
+
+## Day 12: 2020 August 08
+Completely forgot
+
 ## Day 11: 2020 August 07
-Added in a solution for the problem in the JS Drum Kit: replace the tink.wav file with a longer one. Provided by Eduardo06sp from The Odin Project forums. Thread: [https://forum.theodinproject.com/t/js-drum-kit-the-tink-is-bugged-i-cant-get-it-to-play/55076](https://forum.theodinproject.com/t/js-drum-kit-the-tink-is-bugged-i-cant-get-it-to-play/55076)
+Added in a solution for the problem in the JS Drum Kit: replace the tink.wav file with a longer one. Provided by Eduardo06sp from The Odin Project forums. [Thread](https://forum.theodinproject.com/t/js-drum-kit-the-tink-is-bugged-i-cant-get-it-to-play/55076)
 
 Started the calculator project.
 

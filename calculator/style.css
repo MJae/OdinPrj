@@ -1,40 +1,114 @@
-/* 
- * electric violer: #6600FF
- * blue violet:  #9370DB
- */
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: monospace;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
 }
 
 html {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .container {
-  display: grid;
-  align-items: center;
-  justify-content: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .toolbar {
-  display: block;
-  padding: 10px;
+    display: block;
+    padding: 10px;
 }
 
 #clearButton {
-  height: 30px;
-  line-height: 24px;
-  background-image: linear-gradient(#6600FF, #9370DB);
-  background-color: #F2F2F2;
-  border: 1px solid #F2F2F2;
-  color: white;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 11px 4px;
-  min-width: 54px;
-  padding: 0 16px;
+    height: 36px;
+    line-height: 24px; 
+    background-image: linear-gradient(#FFFF66, #FF0000);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #FFFF66;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+}
+
+kbd {
+    display: block;
+    font-size: 3rem;
+}
+
+.calculatorMain {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: .3rem solid #FF0000;
+    padding: 10px;
+    align-items: center;
+    background-color: #FFFF66;
+    color: #FFFF66;
+}
+
+.calcDisplay {
+    display: block;
+    min-height: 15vh;
+    min-width: 40vw;
+    max-width: 40vw;
+    border: .3rem solid #FF0000;
+    padding: 10px;
+    font-size: 3rem;
+    text-align: right;
+    background-color: #FF9900;
+}
+
+.calcNumPad {
+    display: grid;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    grid-template-columns: 65% 34%;
+    column-gap: 1%;
+    border: .3rem solid #FF0000;
+}
+
+.numButtons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: .1rem solid #FF0000;
+    background-color: #FFCC00;
+}
+
+.numButton{
+    border: .1rem solid #FF0000;
+    text-align: center;
+}
+
+.zero {
+    grid-column: 1 / span 3;
+    background-image: linear-gradient(#FFCC00, #FF9900);
+}
+
+.calcBasicOps {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: .1rem solid #FF9900;
+}
+
+.basicOpButton {
+    text-align: center;
+    border: .1rem solid #FF0000;
+    background-color: #FF9900;
+}
+
+#equals {
+    grid-column: 1 / span 2;
+    background-image: linear-gradient(#FF9900, #FFCC00);
+}
+
+#bksp {
+    grid-column: 1 / span 2;
+}
+
+p {
+    display: block;
+    font-size: 3rem;
 }
