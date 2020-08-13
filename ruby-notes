@@ -1,0 +1,7 @@
+Numbers
+
+x.to_f > convert to float
+x.to_i > convert to integer
+
+x.even? > returns true if number is even
+x.dd? > test for odd

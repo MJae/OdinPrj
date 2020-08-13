@@ -3,7 +3,17 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
-## Dat 15: 2020 August 11
+## Day 17: 2020 August 13
+This is when Ruby starts.
+
+I hit a bit of a snag during installation... Or I thought I did. It turns out, the version was only not updating because the terminal needed to restart. Version update went as well as it could have.
+
+## Day 16: 2020 August 12
+The calculator project still has a bug in it. However, I don't want to dwell too long on it, so I'm deciding to move forward instead.
+
+So, now, I have compelted The Odin Project's Web Development 101!
+
+## Day 15: 2020 August 11
 Almost done with the calculator
 
 ## Day 14: 2020 August 10
