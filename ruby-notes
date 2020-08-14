@@ -1,7 +1,73 @@
+! Everything is an object
+
+Comments #
+
 Numbers
 
-x.to_f > convert to float
-x.to_i > convert to integer
+  x.to_f > convert to float
+  x.to_i > convert to integer
 
-x.even? > returns true if number is even
-x.dd? > test for odd
+  x.even? > returns true if number is even
+  x.dd? > test for odd
+
+Strings
+  Concatenation
+    s + s
+    s << s
+    s.concat(s)
+
+  Substrings
+    s[index]
+    s[start..end]
+    s[start, end]
+    s[-index]
+
+  Escape  ! only works inside "", not inside ''
+    \\  #=> Need a backslash in your string?
+    \b  #=> Backspace
+    \r  #=> Carriage return, for those of you that love typewriters
+    \n  #=> Newline. You'll likely use this one the most.
+    \s  #=> Space
+    \t  #=> Tab
+    \"  #=> Double quotation mark
+    \'  #=> Single quotation mark
+
+  Interpolation   ! only works inside "", not inside ''
+    name = "Odin"
+
+    puts "Hello, #{name}" #=> "Hello, Odin"
+    puts 'Hello, #{name}' #=> "Hello, #{name}"
+
+  Common string methods
+    s.capitalize
+    s.include?()
+    s.upcase
+    s.downcase
+    s.empty?
+    s.length
+    s.reverse
+    s.split
+    s.strip                 # Strips extra spaces
+    s.sub(old s, new s)     # string substitution
+    s.gsub(old s, new s)    # Not sure how this is different from the last
+    s.insert(index, s)
+    s.prepend(s, s)         # Add to front
+
+  Converting to string
+    x.to_s
+  
+Symbols
+  A different kind of string; Stored in memory only once amking them faster
+    in some situations; Example use case: keys in hashes
+
+  To create: put a colon before a string
+    :my_symbol
+
+  ! Note: not exactly a variable name, not exactly text
+          considered as code, not data
+
+Booleans
+  true, false, nil
+
+  nil: represents "nothing"; everything has a return, including error messages
+    and nil if something doesn't have one

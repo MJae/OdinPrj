@@ -3,6 +3,9 @@ For all things from and for The Odin Project
 
 This is MJae's nth git project!
 
+## Day 18: 2020 August 14
+More Ruby.
+
 ## Day 17: 2020 August 13
 This is when Ruby starts.
 
